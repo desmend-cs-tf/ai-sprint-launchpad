@@ -143,6 +143,16 @@ flowchart LR
 | 46 | [Context7](https://github.com/upstash/context7) | MCP server that feeds agents up-to-date library docs. | 🟢 |
 | 47 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Lets an agent open and click through your app in a browser. | 🆓 |
 
+### Production agent skills and workflows to study
+
+These are public examples to learn from, not universal drop-in configs. Review each repository's current license, supported tools, and instructions before adopting; copy only what fits your project.
+
+- [Matt Pocock's Skills](https://github.com/mattpocock/skills) — engineering workflows for clarifying requirements, writing specs, test-driven changes, debugging, and codebase design.
+- [Addy Osmani's Agent Skills](https://github.com/addyosmani/agent-skills) — a production-oriented skill pack for planning, implementation, testing, review, security, and shipping across multiple coding agents. This is a general engineering resource, not an Anthropic/Claude Code team configuration.
+- [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill) — a structured security-review workflow with coverage tracking and independent validation. Use only on systems you own or are authorized to assess, and follow its sandboxing and human-review guidance.
+- [Obsidian Skills](https://github.com/obsidianmd/obsidian-skills) — official Obsidian skills for Markdown, Bases, Canvas, CLI, and vault workflows; useful examples of product-specific skills.
+- [Google Elephant-Goldfish Model](https://github.com/google/elephant-goldfish-model) — an open-source plugin for drafting software designs with project context and reviewing them in fresh agent sessions. The repository states it is not an officially supported Google product.
+
 ## 5. Free AI APIs (put AI inside your app)
 
 | No. | Resource | What it's for | Cost |
