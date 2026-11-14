@@ -248,12 +248,12 @@ For setup steps, platform tradeoffs, and copy-ready starter configs for Render, 
 | 109 | [Eraser](https://www.eraser.io) | AI-assisted diagrams and docs. | 🟢 |
 | 110 | [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects) | Kanban board linked to your issues. | 🆓 |
 
-## 11. Datasets & Public APIs (community impact, Chicago-first)
+## 11. Datasets & Public APIs (community impact, nationwide)
 
 | No. | Resource | What it's for | Cost |
 |---|---|---|---|
-| 111 | ⭐ [Chicago Data Portal](https://data.cityofchicago.org) | 311 requests, food inspections, libraries, permits, crime, more — every dataset has a JSON API. | 🆓 |
-| 112 | [Socrata SODA API docs](https://dev.socrata.com) | How to query the Chicago portal with `fetch()` (filters, limits). | 🆓 |
+| 111 | ⭐ [Chicago Data Portal](https://data.cityofchicago.org) | Chicago 311 requests, food inspections, libraries, permits, crime, and more. | 🆓 |
+| 112 | [Socrata SODA API docs](https://dev.socrata.com) | Query many city portals with `fetch()`; APIs and limits vary by portal. | 🆓 |
 | 113 | [Cook County Open Data](https://datacatalog.cookcountyil.gov) | County-level property, health, courts data. | 🆓 |
 | 114 | [Illinois Open Data](https://data.illinois.gov) | State datasets. | 🆓 |
 | 115 | [CTA Developer Center](https://www.transitchicago.com/developers/) | Live bus/train tracker APIs (free key). | 🆓 |
@@ -268,6 +268,80 @@ For setup steps, platform tradeoffs, and copy-ready starter configs for Render, 
 | 124 | [Hugging Face Datasets](https://huggingface.co/datasets) | Datasets for AI experiments. | 🆓 |
 | 125 | [Kaggle Datasets](https://www.kaggle.com/datasets) | Thousands of community datasets. | 🆓 |
 | 126 | [public-apis](https://github.com/public-apis/public-apis) | Huge list of free APIs for side projects. | 🆓 |
+
+### City data: start anywhere
+
+[Data.gov's U.S. open-data-site directory](https://data.gov/open-gov/) links to current federal, state, city, and county data sites. [Census Population Estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html) provides the official 2020–2025 city/town estimates; the list below is the top 10 by city-proper population, not metro-area population. City portals differ in coverage, APIs, terms, and update frequency, so check the individual dataset metadata before using it.
+
+| Largest city (Census city/town ranking) | Official data portal |
+|---|---|
+| New York, NY | [NYC Open Data](https://opendata.cityofnewyork.us/) |
+| Los Angeles, CA | [Los Angeles Open Data](https://data.lacity.org/) |
+| Chicago, IL | [Chicago Data Portal](https://data.cityofchicago.org/) |
+| Houston, TX | [Houston Open Data](https://data.houstontx.gov/) |
+| Phoenix, AZ | [Phoenix Open Data](https://www.phoenixopendata.com/) |
+| Philadelphia, PA | [OpenDataPhilly](https://opendataphilly.org/) |
+| San Antonio, TX | [Open Data SA](https://data.sanantonio.gov/) |
+| San Diego, CA | [San Diego Open Data](https://data.sandiego.gov/) |
+| Dallas, TX | [Dallas Open Data](https://www.dallasopendata.com/) |
+| Jacksonville, FL | [Jacksonville GIS and maps](https://maps.coj.net/) |
+
+### State data portals and official discovery pages
+
+The links below are drawn from [Data.gov's directory of U.S. open-data sites](https://data.gov/open-gov/) and official state sources. Some states publish a broad catalog; others expose data through transparency, GIS, or agency-specific portals instead. Use [Data.gov](https://catalog.data.gov/) and the [U.S. Census API](https://www.census.gov/data/developers/data-sets.html) as cross-state fallbacks, and check each source's scope and terms.
+
+| State | Official portal or data discovery page |
+|---|---|
+| Alabama | [Alabama Open Data](https://open.alabama.gov/) |
+| Alaska | [Alaska GIS Open Data](https://gis.data.alaska.gov/) |
+| Arizona | [Arizona OpenBooks](https://openbooks.az.gov/) |
+| Arkansas | [Arkansas Transparency](https://transparency.arkansas.gov/) |
+| California | [California Open Data](https://data.ca.gov/) |
+| Colorado | [Colorado Information Marketplace](https://data.colorado.gov/) |
+| Connecticut | [Open Connecticut](https://osc.ct.gov/openct/) |
+| Delaware | [Delaware Data](https://delaware.gov/guides/data/) |
+| Florida | [Florida Geographic Data Library](https://geodata.floridagio.gov/) |
+| Georgia | [Georgia Open Data](https://open.ga.gov/) |
+| Hawaii | [Hawaii Open Data](https://data.hawaii.gov/) |
+| Idaho | [Idaho Geospatial Office](https://gis.idaho.gov/) |
+| Illinois | [Illinois Open Data](https://data.illinois.gov/) |
+| Indiana | [Indiana State Data Center](https://www.stats.indiana.edu/) |
+| Iowa | [Iowa Open Data](https://data.iowa.gov/) |
+| Kansas | [Kansas Open Government](https://ag.ks.gov/open-government) |
+| Kentucky | [Kentucky Transparency](https://transparency.ky.gov/) |
+| Louisiana | [Louisiana Transparency and Accountability](https://wwwcfprd.doa.louisiana.gov/latrac/portal.cfm) |
+| Maine | [Maine GeoLibrary](https://www.maine.gov/geolib/catalog.html) |
+| Maryland | [Maryland Open Data](https://opendata.maryland.gov/) |
+| Massachusetts | [MassGIS Data](https://www.mass.gov/get-massgis-geospatial-data) |
+| Michigan | [Michigan data and GIS resources](https://www.michigan.gov/data) |
+| Minnesota | [Minnesota state portal](https://mn.gov/portal/) |
+| Mississippi | [Mississippi GIS Open Data](https://opendata.gis.ms.gov/) |
+| Missouri | [Missouri Data](https://data.mo.gov/) |
+| Montana | [Montana Open Data](https://data.mt.gov/) |
+| Nebraska | [Nebraska Open Data](https://www.nebraska.gov/government/open-data/) |
+| Nevada | [Nevada Open Data](https://open.nv.gov/) |
+| New Hampshire | [New Hampshire Department of Information Technology](https://www.doit.nh.gov/) |
+| New Jersey | [New Jersey Open Data](https://data.nj.gov/) |
+| New Mexico | [New Mexico Sunshine Portal](https://ssp.nm.gov/) |
+| New York | [New York State Open Data](https://data.ny.gov/) |
+| North Carolina | [North Carolina Open Budget](https://www.nc.gov/government/open-budget) |
+| North Dakota | [North Dakota GIS Hub](https://www.gis.nd.gov/) |
+| Ohio | [Ohio transparency and public data](https://ohio.gov/government/topic-hubs/transparency) |
+| Oklahoma | [Oklahoma Open Data](https://data.ok.gov/) |
+| Oregon | [Oregon Open Data](https://data.oregon.gov/) |
+| Pennsylvania | [Pennsylvania Open Data](https://data.pa.gov/) |
+| Rhode Island | [Rhode Island Data](https://www.ri.gov/data/) |
+| South Carolina | [South Carolina Data and Transparency](https://www.sc.gov/data-and-transparency) |
+| South Dakota | [South Dakota Open Data](https://open.sd.gov/) |
+| Tennessee | [Tennessee GIS Open Data](https://tn-tnmap.opendata.arcgis.com/) |
+| Texas | [Texas Open Data](https://data.texas.gov/) |
+| Utah | [Utah Open Data](https://opendata.utah.gov/) |
+| Vermont | [Vermont Open Data](https://data.vermont.gov/) |
+| Virginia | [Virginia Open Data](https://data.virginia.gov/) |
+| Washington | [Washington State Data](https://data.wa.gov/) |
+| West Virginia | [West Virginia state data and transparency](https://www.wv.gov/) |
+| Wisconsin | [Wisconsin state government data and GIS](https://data-wi-dnr.opendata.arcgis.com/) |
+| Wyoming | [Wyoming GIS data discovery](https://data.geospatialhub.org/) |
 
 > Always check each dataset's license and freshness. Show users where your data came from and when it was updated.
 
