@@ -1,0 +1,14 @@
+{
+  // Open THIS whole repo in GitHub Codespaces and the starter app installs itself.
+  "name": "AI Sprint Launchpad",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "cd starter && npm run install:all && (cp -n .env.example server/.env || true)",
+  "forwardPorts": [5173, 3001],
+  "portsAttributes": {
+    "5173": { "label": "React app", "onAutoForward": "openPreview" },
+    "3001": { "label": "Express API" }
+  },
+  "customizations": {
+    "vscode": { "extensions": ["esbenp.prettier-vscode", "bierner.markdown-mermaid"] }
+  }
+}

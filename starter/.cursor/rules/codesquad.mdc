@@ -1,0 +1,14 @@
+---
+description: CodeSquad starter conventions (Express + React, plain JS)
+globs: ["server/**/*.js", "client/src/**/*.{js,jsx}"]
+alwaysApply: true
+---
+
+Follow AGENTS.md at the repo root. Highlights:
+
+- Plain JavaScript (ES modules). No TypeScript.
+- Server files start with `import 'dotenv/config';`
+- zod `safeParse` on every request before DB or AI calls.
+- Secrets only in server/.env — never in client code.
+- Keep and add teaching comments.
+- Multi-provider AI calls use `Promise.allSettled()`.

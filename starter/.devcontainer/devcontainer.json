@@ -1,0 +1,17 @@
+{
+  // GitHub Codespaces config: click "Code → Codespaces → Create codespace"
+  // and you get a full VS Code + Node in the browser. No laptop install needed.
+  "name": "CodeSquad AI Sprint Starter",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm run install:all && cp -n .env.example server/.env || true",
+  "forwardPorts": [5173, 3001],
+  "portsAttributes": {
+    "5173": { "label": "React app", "onAutoForward": "openPreview" },
+    "3001": { "label": "Express API" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "bierner.markdown-mermaid"]
+    }
+  }
+}

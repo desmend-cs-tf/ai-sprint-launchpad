@@ -1,0 +1,23 @@
+# Supabase FREE projects pause after ~7 days with no activity.
+# This GitHub Action pings your database every 3 days so your demo stays alive.
+#
+# Setup: GitHub repo → Settings → Secrets and variables → Actions → New repository secret
+#   SUPABASE_URL       = https://YOUR-PROJECT.supabase.co
+#   SUPABASE_ANON_KEY  = your anon / publishable key (safe: it only reads public rows)
+
+name: Keep Supabase awake
+
+on:
+  schedule:
+    - cron: '0 14 */3 * *' # 14:00 UTC every 3rd day
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read one row
+        run: |
+          curl --fail -sS "${{ secrets.SUPABASE_URL }}/rest/v1/resources?select=id&limit=1" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"

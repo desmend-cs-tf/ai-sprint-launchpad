@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Bridgeport Community Pantry",
+    "category": "food",
+    "neighborhood": "Bridgeport",
+    "description": "Weekly grocery pickup with fresh produce and shelf-stable staples. No ID required for first visit.",
+    "hours": "Tue & Sat 9am–1pm",
+    "website": "",
+    "tags": [
+      "groceries",
+      "produce",
+      "no-id"
+    ]
+  },
+  {
+    "name": "Pilsen Family Meal Hub",
+    "category": "food",
+    "neighborhood": "Pilsen",
+    "description": "Free hot dinners for families, plus take-home meal kits on Fridays.",
+    "hours": "Mon–Fri 5pm–7pm",
+    "website": "",
+    "tags": [
+      "hot meals",
+      "families",
+      "spanish"
+    ]
+  },
+  {
+    "name": "South Loop Senior Lunch Club",
+    "category": "seniors",
+    "neighborhood": "South Loop",
+    "description": "Daily lunch and social hour for adults 60+, with chair yoga on Wednesdays.",
+    "hours": "Mon–Fri 11:30am–1:30pm",
+    "website": "",
+    "tags": [
+      "meals",
+      "social",
+      "exercise"
+    ]
+  },
+  {
+    "name": "Chinatown Wellness Clinic",
+    "category": "health",
+    "neighborhood": "Chinatown",
+    "description": "Sliding-scale primary care, blood pressure screenings, and Cantonese/Mandarin interpreters.",
+    "hours": "Mon–Sat 8am–4pm",
+    "website": "",
+    "tags": [
+      "clinic",
+      "screenings",
+      "interpreters"
+    ]
+  },
+  {
+    "name": "Back of the Yards Job Lab",
+    "category": "jobs",
+    "neighborhood": "Back of the Yards",
+    "description": "Resume help, mock interviews, and weekly hiring events with local employers.",
+    "hours": "Tue–Thu 10am–5pm",
+    "website": "",
+    "tags": [
+      "resume",
+      "interviews",
+      "hiring"
+    ]
+  },
+  {
+    "name": "McKinley Park Youth Code Club",
+    "category": "youth",
+    "neighborhood": "McKinley Park",
+    "description": "After-school coding club for ages 12–17. Laptops provided. Builds games with JavaScript.",
+    "hours": "Mon & Wed 4pm–6pm",
+    "website": "",
+    "tags": [
+      "coding",
+      "after-school",
+      "javascript"
+    ]
+  },
+  {
+    "name": "Englewood Tenant Help Desk",
+    "category": "housing",
+    "neighborhood": "Englewood",
+    "description": "Free help understanding leases, repair requests, and eviction notices.",
+    "hours": "Wed 1pm–6pm",
+    "website": "",
+    "tags": [
+      "tenants",
+      "eviction",
+      "repairs"
+    ]
+  },
+  {
+    "name": "Bronzeville Legal Aid Night",
+    "category": "legal",
+    "neighborhood": "Bronzeville",
+    "description": "Volunteer attorneys answer questions on expungement, wills, and small claims.",
+    "hours": "1st & 3rd Thu 6pm–8pm",
+    "website": "",
+    "tags": [
+      "attorneys",
+      "expungement",
+      "wills"
+    ]
+  },
+  {
+    "name": "Little Village GED Prep",
+    "category": "education",
+    "neighborhood": "Little Village",
+    "description": "Bilingual GED and high school equivalency classes with free test vouchers.",
+    "hours": "Mon–Thu 6pm–8:30pm",
+    "website": "",
+    "tags": [
+      "ged",
+      "bilingual",
+      "adult ed"
+    ]
+  },
+  {
+    "name": "Garfield Park Digital Skills Lab",
+    "category": "tech",
+    "neighborhood": "East Garfield Park",
+    "description": "Free computer basics, email setup, and smartphone help for all ages.",
+    "hours": "Tue & Thu 10am–2pm",
+    "website": "",
+    "tags": [
+      "computer basics",
+      "smartphones",
+      "seniors"
+    ]
+  },
+  {
+    "name": "Logan Square Community Fridge",
+    "category": "food",
+    "neighborhood": "Logan Square",
+    "description": "24/7 free fridge and pantry shelf. Take what you need, leave what you can.",
+    "hours": "Open 24/7",
+    "website": "",
+    "tags": [
+      "fridge",
+      "mutual aid",
+      "24-7"
+    ]
+  },
+  {
+    "name": "Uptown Warming Center",
+    "category": "housing",
+    "neighborhood": "Uptown",
+    "description": "Overnight warming space during winter alerts with cots, coffee, and case managers.",
+    "hours": "Winter alerts, 7pm–7am",
+    "website": "",
+    "tags": [
+      "shelter",
+      "winter",
+      "case management"
+    ]
+  },
+  {
+    "name": "Austin Teen Mentoring Circle",
+    "category": "youth",
+    "neighborhood": "Austin",
+    "description": "Weekly mentoring circles pairing teens with professionals for career exploration.",
+    "hours": "Sat 11am–1pm",
+    "website": "",
+    "tags": [
+      "mentoring",
+      "careers",
+      "teens"
+    ]
+  },
+  {
+    "name": "Hyde Park Mental Health Drop-In",
+    "category": "health",
+    "neighborhood": "Hyde Park",
+    "description": "Free, confidential drop-in counseling sessions. Walk-ins welcome.",
+    "hours": "Mon, Wed, Fri 12pm–6pm",
+    "website": "",
+    "tags": [
+      "counseling",
+      "walk-in",
+      "confidential"
+    ]
+  },
+  {
+    "name": "Rogers Park Refugee Welcome Center",
+    "category": "legal",
+    "neighborhood": "Rogers Park",
+    "description": "Help with paperwork, English classes referrals, and connecting newcomers to services.",
+    "hours": "Mon–Fri 9am–5pm",
+    "website": "",
+    "tags": [
+      "newcomers",
+      "paperwork",
+      "english"
+    ]
+  },
+  {
+    "name": "Humboldt Park Arts Collective",
+    "category": "arts",
+    "neighborhood": "Humboldt Park",
+    "description": "Free open studio nights for painting, printmaking, and mural design.",
+    "hours": "Thu 6pm–9pm",
+    "website": "",
+    "tags": [
+      "painting",
+      "murals",
+      "open studio"
+    ]
+  },
+  {
+    "name": "West Town Tech Apprenticeship Info Session",
+    "category": "tech",
+    "neighborhood": "West Town",
+    "description": "Monthly info session on paid tech apprenticeships for adults without degrees.",
+    "hours": "Last Tue 6pm–7:30pm",
+    "website": "",
+    "tags": [
+      "apprenticeship",
+      "career change",
+      "paid"
+    ]
+  },
+  {
+    "name": "Chatham Senior Ride Share",
+    "category": "seniors",
+    "neighborhood": "Chatham",
+    "description": "Free rides to medical appointments for adults 65+. Book 48 hours ahead.",
+    "hours": "Mon–Fri 8am–4pm",
+    "website": "",
+    "tags": [
+      "transportation",
+      "medical",
+      "booking"
+    ]
+  },
+  {
+    "name": "Avondale Free Tax Prep",
+    "category": "legal",
+    "neighborhood": "Avondale",
+    "description": "Volunteer tax preparation for households earning under $67k. Bring last year’s return.",
+    "hours": "Jan–Apr, Sat 9am–3pm",
+    "website": "",
+    "tags": [
+      "taxes",
+      "free",
+      "seasonal"
+    ]
+  },
+  {
+    "name": "Bridgeport Library Homework Help",
+    "category": "education",
+    "neighborhood": "Bridgeport",
+    "description": "Drop-in tutoring for K–12 students in math, reading, and science.",
+    "hours": "Mon–Thu 3:30pm–6pm",
+    "website": "",
+    "tags": [
+      "tutoring",
+      "k-12",
+      "homework"
+    ]
+  },
+  {
+    "name": "Woodlawn Diaper & Baby Supply Bank",
+    "category": "food",
+    "neighborhood": "Woodlawn",
+    "description": "Monthly diapers, wipes, and formula for families with children under 3.",
+    "hours": "2nd Sat 10am–12pm",
+    "website": "",
+    "tags": [
+      "diapers",
+      "formula",
+      "infants"
+    ]
+  },
+  {
+    "name": "Albany Park Job Readiness Bootcamp",
+    "category": "jobs",
+    "neighborhood": "Albany Park",
+    "description": "Two-week bootcamp on workplace skills, Excel basics, and customer service.",
+    "hours": "Cohorts start monthly",
+    "website": "",
+    "tags": [
+      "bootcamp",
+      "excel",
+      "customer service"
+    ]
+  },
+  {
+    "name": "South Shore Health Fair",
+    "category": "health",
+    "neighborhood": "South Shore",
+    "description": "Quarterly free health fair: vision checks, dental screenings, and vaccine info.",
+    "hours": "Quarterly, Sat 10am–3pm",
+    "website": "",
+    "tags": [
+      "dental",
+      "vision",
+      "vaccines"
+    ]
+  },
+  {
+    "name": "Edgewater Housing Search Workshop",
+    "category": "housing",
+    "neighborhood": "Edgewater",
+    "description": "Learn how to search for affordable apartments and avoid rental scams.",
+    "hours": "2nd Wed 6pm–7:30pm",
+    "website": "",
+    "tags": [
+      "apartments",
+      "affordable",
+      "scams"
+    ]
+  },
+  {
+    "name": "Pullman Maker Space for Teens",
+    "category": "youth",
+    "neighborhood": "Pullman",
+    "description": "3D printing, robotics, and electronics workshops for ages 13–18.",
+    "hours": "Sat 1pm–5pm",
+    "website": "",
+    "tags": [
+      "robotics",
+      "3d printing",
+      "stem"
+    ]
+  },
+  {
+    "name": "Portage Park Senior Tech Buddies",
+    "category": "seniors",
+    "neighborhood": "Portage Park",
+    "description": "One-on-one help with video calls, online banking safety, and patient portals.",
+    "hours": "Fri 10am–12pm",
+    "website": "",
+    "tags": [
+      "video calls",
+      "online safety",
+      "one-on-one"
+    ]
+  },
+  {
+    "name": "Kenwood Community Garden Plots",
+    "category": "food",
+    "neighborhood": "Kenwood",
+    "description": "Free garden plots and seeds for residents, plus Saturday growing classes.",
+    "hours": "Apr–Oct, daily dawn–dusk",
+    "website": "",
+    "tags": [
+      "garden",
+      "seeds",
+      "classes"
+    ]
+  },
+  {
+    "name": "North Lawndale Reentry Resource Hub",
+    "category": "jobs",
+    "neighborhood": "North Lawndale",
+    "description": "Job placement, ID replacement help, and peer support for returning residents.",
+    "hours": "Mon–Fri 9am–5pm",
+    "website": "",
+    "tags": [
+      "reentry",
+      "id help",
+      "peer support"
+    ]
+  },
+  {
+    "name": "Brighton Park ESL Conversation Circle",
+    "category": "education",
+    "neighborhood": "Brighton Park",
+    "description": "Casual English conversation practice for all levels. Childcare available.",
+    "hours": "Tue 6pm–7:30pm",
+    "website": "",
+    "tags": [
+      "esl",
+      "english",
+      "childcare"
+    ]
+  },
+  {
+    "name": "Lakeview Youth Open Mic",
+    "category": "arts",
+    "neighborhood": "Lakeview",
+    "description": "Monthly open mic for poets, musicians, and comedians ages 14–21.",
+    "hours": "1st Fri 6pm–9pm",
+    "website": "",
+    "tags": [
+      "open mic",
+      "poetry",
+      "music"
+    ]
+  }
+]
